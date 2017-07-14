@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: BBSiFQ18pX8L5TwVz2KWsn8jrScTIB/bjZyyo27yH+80N39bheQBYW85dRv4YfvftRtyK/1dINbQPHaIlNOSSDVymVvWzE7zBrtIkSheoSLaO2C+hqZDmEQfIjNjKRNwdFoj5NRzBw907FJhOXHCVH8JcduoRzAT6SoA1BFkdN0wgqeK+SDjE8JT9Gj0yLUsliCRWgBdeEjETsPz5ZoaoPNYR1rxJopFWAKU8ynh/GcwYIxSSE1+WJJyaq534jERR8l8jcAcXrZx45DX2Lb5N2hxRUzilLnA9VQMlXq5JSEmNxvuxoEau8pPEpCgelBiMDRIJ5wc+gaai8D2a+nQkZym7J/7TwM3MTLgskASPMfWrM4bolVGWZB1QEP3MXMaWD2eQo1+bHVmNUTwOl0NrqXnthRhGJmoArdopvGuPkyfC4ZPkl3d0qwtdDLlfyFc1BlZoTB+/2WWLGulclKU7IjOoORfju4OaRjkOQ0UYDj/kqbDZ/JlrFCgAtLVF+pc6AxagOFT+q/2zp6v9J3W4VJXI3rQVaFc6IYSQd17SD+4KccNnz0w+m6OHm0IIzzQexlz1503dDd8V/NS1eJB+VA2Q6XK3XWdaKBILkBC3Ia8uKlse4O9+qKOGG9ntMSq2soTy0jj41mZ4bgBzuToM6UZG8a2D8Tc5sOpKCHIYKY=
+  app: radiant-depths-76041
+  on:
+    repo: coryannie83/marvel
